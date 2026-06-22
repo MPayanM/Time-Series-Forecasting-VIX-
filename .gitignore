@@ -1,3 +1,5 @@
+reports/
+
 # Data — raw files excluded (download with acquisition.py); keep folder stubs
 data/raw/*
 !data/raw/.gitkeep
