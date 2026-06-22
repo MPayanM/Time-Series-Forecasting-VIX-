@@ -1,0 +1,9 @@
+data:
+  ticker: "^VIX"
+  start_date: "1990-01-02"
+
+forecasting:
+  horizons: [1, 5, 21]
+
+backtest:
+  min_train_size: 252  # ~1 year of trading days

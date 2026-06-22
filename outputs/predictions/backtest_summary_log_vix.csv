@@ -1,0 +1,4 @@
+model,horizon,rmse,mae,mape,dir_acc
+ARIMA_log,1,1.1118,1.1118,6.0265,0.6667
+ARIMA_log,5,1.8051,1.5612,8.5006,0.5778
+ARIMA_log,21,2.9971,2.4766,13.0607,0.5201

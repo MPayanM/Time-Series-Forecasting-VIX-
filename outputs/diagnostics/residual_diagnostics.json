@@ -1,0 +1,33 @@
+{
+  "ljung_box_stat": 91.0668,
+  "ljung_box_pvalue": 0.0,
+  "jarque_bera_stat": 315930.9963,
+  "jarque_bera_pvalue": 0.0,
+  "arch_lm_stat": 1571.1739,
+  "arch_lm_pvalue": 0.0,
+  "ljung_box_detail": {
+    "test": "Ljung-Box",
+    "lags_tested": 20,
+    "statistic": 91.0668,
+    "p_value": 0.0,
+    "h0": "no autocorrelation",
+    "conclusion": "autocorrelation detected in residuals (reject H0)"
+  },
+  "jarque_bera_detail": {
+    "test": "Jarque-Bera",
+    "statistic": 315930.9963,
+    "p_value": 0.0,
+    "skewness": 2.231,
+    "excess_kurtosis": 31.3863,
+    "h0": "normally distributed",
+    "conclusion": "non-normal \u2014 fat tails / skewness present (reject H0)"
+  },
+  "arch_lm_detail": {
+    "test": "ARCH-LM",
+    "lags_tested": 12,
+    "statistic": 1571.1739,
+    "p_value": 0.0,
+    "h0": "no ARCH effects (homoskedastic)",
+    "conclusion": "ARCH effects detected \u2014 variance clustering present (reject H0)"
+  }
+}

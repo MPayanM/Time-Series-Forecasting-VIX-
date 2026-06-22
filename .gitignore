@@ -1,0 +1,31 @@
+# Development/tooling files — not for publication
+CLAUDE.md
+PROJECT_PLAN.md
+
+# Data — raw files excluded (download with acquisition.py); keep folder stubs
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Tools
+.pytest_cache/
+.mypy_cache/
+.DS_Store
